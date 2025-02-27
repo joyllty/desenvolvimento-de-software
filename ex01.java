@@ -1,8 +1,9 @@
+//Peça para o usuário digitar um número e exiba esse número multiplicado por 2
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//Peça para o usuário digitar um número e exiba esse número multiplicado por 2
     Scanner leitor = new Scanner(System.in);
 
     System.out.println("Bem vindo(a)!");

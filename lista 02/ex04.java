@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /* Elabore um programa que leia um vetor de 5 números digitados pelo usuário e uma variável de um número n
 qualquer, depois mostre na tela o índice dos elementos que são inferiores a n */
-public class ex01 {
+public class ex04 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

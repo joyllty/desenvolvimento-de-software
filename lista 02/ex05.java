@@ -18,7 +18,7 @@ public class ex05 {
             vetor[i] = input.nextFloat();
         }
 
-        System.out.println("\nAgora digite 1 número: ");
+        System.out.println("\nAgora o número que deseja buscar: ");
         num= input.nextFloat();
 
         /* Apresentando os valores */

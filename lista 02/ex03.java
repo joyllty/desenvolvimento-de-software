@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /* Faça um programa que leia em um vetor uma sequência finita de números digitados pelo usuário. Crie um segundo
 vetor que armazene o dobro de cada número do primeiro vetor e depois apresente os valores deste vetor */
-public class ex01 {
+public class ex03 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

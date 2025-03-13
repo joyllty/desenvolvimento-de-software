@@ -39,5 +39,7 @@ public class ex01 {
             }
 
         }
+
+        input.close();
     }
 }

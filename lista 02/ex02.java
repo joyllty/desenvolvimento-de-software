@@ -32,5 +32,7 @@ public class ex01 {
                 System.out.printf("\nValor [%d]: %d é negativo!", i + 1, vetor[i]);
             }
         }
+
+        input.close();
     }
 }

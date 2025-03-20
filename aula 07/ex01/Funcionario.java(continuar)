@@ -1,0 +1,21 @@
+public class Funcionario {
+    private String nome;
+    private String cargo;
+    private double salario;
+
+    //get name
+    public String getNome(String nome){
+        return nome;
+    }
+    //get cargo
+    public String getCargo(String cargo){
+        return cargo;
+    }
+    //get salario
+    public double getSalario(double salario){
+        return salario;
+    }
+
+
+
+}

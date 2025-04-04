@@ -13,7 +13,7 @@ public class Main {
         //Inimigo firy = new Inimigo(0, 4, "🥵");
 
         List<Personagem> personagens = new ArrayList<>();
-        personagens.add(new Personagem(1, 2, "🥶"));
+        personagens.add(new Personagem(0, 0, "🥶"));
         personagens.add(new Personagem(4, 4, "🥵"));
 
 
@@ -37,27 +37,14 @@ public class Main {
         }
 
         do{
-            System.out.print("Selecione uma opção: \n[W] Cima\n[S] Baixo\n[A] Esquerda\n[D] Direita");
+            System.out.print("\n----------------------");
+            System.out.print("\n== Menu == \n[W] Cima\n[S] Baixo\n[A] Esquerda\n[D] Direita\nSelecione uma opção:");
             String op = input.nextLine();
 
             switch(op){
                 case "W":
-                    for (int linha = 0; linha < 5; linha++) {
-                        for (int coluna = 0; coluna < 5; coluna++) {
-
-                            boolean tem = false;
-
-                            for (int i = 0; i < personagens.size(); i++) {
-                                personagens.get(i).posY =- 1;
-                                System.out.print("[ " + personagens.get(i).desenho + " ]");
-                                tem = true;
-                                break;
-                                }
-                            }
-                        }
-                        System.out.println();
-                    }
-                    break;
+            }
+            break;
 
         } while (true);
     }

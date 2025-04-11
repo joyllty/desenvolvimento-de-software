@@ -29,16 +29,21 @@ public class Personagem {
     public String getInfo(){
         return "> Nome: " + nome + "\n" + "> Vida: " + vida + "> Dano: " + dano;
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public String getNome(){
         return nome;
     }
+
     public int getVida(){
         return vida;
     }
+
     public int getDano(){
         return dano;
     }
-
-
 
 }

@@ -1,28 +1,53 @@
-package Model;
+package model;
 
-public class Pessoa {
+public abstract class Pessoa {
 
     private String nome;
-    private String email;
+    private String login;
+    private String cpf;
+    private String senha;
 
-    public Pessoa(String nome, String email) {
+    public Pessoa(String nome, String login, String cpf, String senha) {
         this.nome = nome;
-        this.email = email;
+        this.login = login;
+        this.cpf = cpf;
+        this.senha = senha; //
     }
 
-    public String getNome() {
-        return nome;
-    }
-
+    // sets
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getEmail() {
-        return email;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
+
+    public void setSenha(String senha) { //
+        this.senha = senha;
+    }
+
+    // gets
+    public String getNome() {
+        return nome;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getSenha() { //
+        return senha;
+    }
+
+    // método abstrato
+    public abstract String getTipoPessoa();
 }

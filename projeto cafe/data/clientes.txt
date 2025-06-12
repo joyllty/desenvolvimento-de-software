@@ -1,0 +1,2 @@
+nana;123;Cliente;bru;1234444;morretes;108;portao;curitiba
+bb;123;Cliente;bruna;123412321;morretes;108;portao;curitiba

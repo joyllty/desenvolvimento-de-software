@@ -1,0 +1,4 @@
+[PENDENTE] Pedido #2 | Usuário: mat
+Itens:
+- Bauru da casa x1 - R$ 10,00
+Total: R$ 10,00

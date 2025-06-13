@@ -180,7 +180,7 @@ public class MenuPedidoController {
     public void removerPedidoGlobal() {
         List<Pedido> pendentes = pedidoController.listarPedidosPendentesGlobal();
         if (pendentes.isEmpty()) {
-            view.exibirMensagem("\não há pedidos pendentes para remover.", Cores.BROWN);
+            view.exibirMensagem("\nNão há pedidos pendentes para remover.", Cores.BROWN);
             return;
         }
         view.exibirListaPedidos(pendentes);

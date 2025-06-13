@@ -7,11 +7,11 @@ public abstract class Pessoa {
     private String cpf;
     private String senha;
 
-    public Pessoa(String nome, String login, String cpf, String senha) {
+    public Pessoa(String nome, String senha, String login, String cpf) {
         this.nome = nome;
+        this.senha = senha;
         this.login = login;
         this.cpf = cpf;
-        this.senha = senha; //
     }
 
     // sets

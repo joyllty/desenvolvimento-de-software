@@ -208,7 +208,7 @@ public class UsuarioController {
                     String cpf = dados[4];
 
                     if ("Cliente".equals(tipoPessoa)) {
-                        Cliente cliente = new Cliente(nome, login, cpf, senha);
+                        Cliente cliente = new Cliente(nome, senha, login, cpf);
                         if (dados.length >= 9) {
                             Endereco endereco = new Endereco();
                             endereco.setRua(dados[5]);
@@ -255,7 +255,6 @@ public class UsuarioController {
                     if ("Funcionario".equals(tipoPessoa)) {
                         Funcionario funcionario = new Funcionario(nome, senha, login, cpf, cargo, turno);
                         funcionarios.add(funcionario);
-
                     }
                 }
             }
